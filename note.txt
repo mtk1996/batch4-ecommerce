@@ -1,0 +1,123 @@
+users
+======
+id      name        email       password    image
+
+admin
+======
+id      name        email           password
+1       admin          admin@a.com  password
+
+
+color
+======
+id      slug                name
+1       adfadfa_red           red
+
+
+brand
+======
+id      slug        name
+
+category
+========
+id      slug        name
+
+
+supplier
+========
+id      name       image        phone       description
+1       mgmg                      098            hat
+2       ayeaye                    098           hat
+
+product
+========
+id  brand_id       category_id      supplier_id      name      image   description      buy_price       sell_price     discount_price      total_quantity
+        1            1                  1              some                                100              120             130                50
+
+
+
+product_reivew
+==============
+product_id      user_id         rating      review
+
+
+product_remove
+==============
+product_id      total_quantity      date
+
+
+product_add
+===========
+product_id      supplier_id     total_quantity      date
+1                   1               100               29-
+1                   2               50                 29-10
+
+proudct_cart
+============
+user_id         product_id          total_quantity
+1               1                       2
+
+order
+=====
+user_id         product_id      payment_sc    total_quantity        address         phone         order_status(pending,success,reject)
+1                   1           payment.png              2                                           succes
+
+proudct_color
+=============
+id  product_id   color_id
+
+
+income
+=======
+id      title       price     dscription
+1       wave            3000            wave ငွေလွဲ
+
+outcome
+=======
+id          title       price       descri
+1             အိမ်ခွန်      2000
+
+
+
+
+
+
+
+
+
+
+
+
+create webpack.mix.jx
+const mix = require("laravel-mix");
+mix.js("resources/js/app.js", "public/js").react();
+
+
+yarn add laravel-mix
+
+
+
+
+git branch -M "main"
+
+git init
+git remote add origin url.git
+git add .
+git commit -m "some"
+git push origin master
+
+
+
+git clone https://github.com/mtk1996/web-batch4
+
+
+
+
+
+
+product/slug
+
+
+
+
+
